@@ -61,6 +61,7 @@ public class ContainsDuplicate {
             seen.add(num);
         }
         return false;
+
     }
 
     static void main() {
