@@ -13,12 +13,12 @@ public class AddTwoNumbers {
             }
             map.put(nums[i], i);
         }
-        return nums;
+        return new int[0];
     }
 
     static void main() {
         int[] nums = {2, 3, 4};
-        int target = 7;
+        int target = 117;
         int[] res = twoSum(nums, target);
         System.out.println(Arrays.toString(res));
     }
