@@ -25,5 +25,4 @@ public class validAnagram {
         String t = "silent";
         System.out.println(isAnagram(s, t));
     }
-
 }
