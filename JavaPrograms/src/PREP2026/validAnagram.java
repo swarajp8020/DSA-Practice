@@ -15,13 +15,13 @@ public class validAnagram {
             char ch = t.charAt(i);
             map.put(ch, map.getOrDefault(ch, 0) - 1);
         }
-        for (int count: map.values()){
-            if (count!=0) return false;
+        for (int count:map.values()){
+            if (count != 0) return false;
         }
         return true;
     }
     static void main() {
-        String s = "listen";
+        String s = "listens";
         String t = "silent";
         System.out.println(isAnagram(s, t));
     }
