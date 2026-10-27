@@ -2,7 +2,7 @@ package PREP2026;
 
 import java.util.HashSet;
 
-public class ContainsDuplicate {
+public class containsDuplicate {
 
     //brute force approach
 //    public boolean contDup(int[] nums){
@@ -65,17 +65,17 @@ public class ContainsDuplicate {
     }
 
     static void main() {
-        ContainsDuplicate containsDuplicate = new ContainsDuplicate();
+        containsDuplicate containsDuplicate = new containsDuplicate();
 
         int[] nums1 = {8, 3, 6, 2};
         int[] nums2 = {8, 3, 6, 3};
         int[] nums3 = {5, 5};
         int[] nums4 = {9};
 
-        System.out.println(ContainsDuplicate.contDup(nums1)); // false
-        System.out.println(ContainsDuplicate.contDup(nums2)); // true
-        System.out.println(ContainsDuplicate.contDup(nums3)); // true
-        System.out.println(ContainsDuplicate.contDup(nums4)); // false
+        System.out.println(PREP2026.containsDuplicate.contDup(nums1)); // false
+        System.out.println(PREP2026.containsDuplicate.contDup(nums2)); // true
+        System.out.println(PREP2026.containsDuplicate.contDup(nums3)); // true
+        System.out.println(PREP2026.containsDuplicate.contDup(nums4)); // false
 
     }
 }

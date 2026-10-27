@@ -1,9 +1,9 @@
 package PREP2026;
 
 import java.util.HashMap;
-import java.util.HashSet;
+
 //Contains DUplicate practice
-public class OCt25Practice {
+public class oct25Practice {
 //    static boolean containsDup(int[] nums){
 //        HashSet<Integer> set = new HashSet<>();
 //        for (int i = 0; i < nums.length; i++) {
