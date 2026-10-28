@@ -12,7 +12,6 @@ import java.util.HashMap;
 public class firstUniqueCharacter {
     // to return index number
     static int firstUniqueChar(String s) {
-
         HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
@@ -20,9 +19,8 @@ public class firstUniqueCharacter {
         }
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
-            if (map.get(ch)==1) return i;
+            if (map.get(ch) == 1) return i;
         }
-
         return -1;
     }
 
