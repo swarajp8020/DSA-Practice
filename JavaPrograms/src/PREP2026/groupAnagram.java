@@ -20,6 +20,7 @@ public class groupAnagram {
             Arrays.sort(chars);
             String key = new String(chars);
             map.computeIfAbsent(key, k -> new ArrayList<>()).add(word);
+
         }
         return new ArrayList<>(map.values());
     }
