@@ -12,6 +12,7 @@ public class oct31Practice {
             }
             set.add(nums[i]);
         }
+
         return false;
     }
     static void main() {
